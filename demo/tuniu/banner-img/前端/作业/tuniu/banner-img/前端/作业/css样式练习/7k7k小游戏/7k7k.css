@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	width: 875px;
+	height: 35px;
+	border: 1px solid #158fed;
+	font: 17px "微软雅黑";
+	margin: 20px auto;
+}
+ul{
+	height: 35px;
+	text-align: center;
+}
+li{
+	list-style: none;
+	float: left;
+	height: 24px;
+    margin: 5px 3px;
+}
+li:hover{
+	border-radius: 5px;
+	background: #EEEEEE;
+}
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.nav1{
+	width: 610px;
+	background: #1E90FF;
+	float: left;
+}
+.shouye{
+	border-radius: 5px;
+	background: #FBFBFB;
+}
+.shouye a{
+	font-weight: 700;
+    color: #2D2D2D;
+}
+.nav2{
+	width: 265px;
+	background: #0000FF;
+	float: right;
+}

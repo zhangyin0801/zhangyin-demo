@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+			}
+			.top-nav{
+				height: 29px;
+			    background: #f8f8f8;
+			    border-bottom: 1px solid #eee;
+			    font: 12px/29px "微软雅黑";
+			    margin: 0 auto;
+			}
+			.top-nav .myorder{
+				float: left;
+				list-style: none;
+				width: 80px;
+				border-left: 1px solid transparent;
+				border-right: 1px solid transparent;
+			}
+			.top-nav .myorder:hover{
+				border-left: 1px solid #eee;
+				border-right: 1px solid #eee;
+				background: #FFFFFF;
+			}
+			.top-nav .icon-arrow{
+				position: absolute;
+				top: 14px;
+				right: 1px;
+				width: 5px;
+				height: 3px;
+				background: url(img/icon.png) no-repeat -8px -13px;
+			}
+			.top-nav li:hover .icon-arrow{
+				transform: rotate(180deg);
+				transition: transform 0.3s;
+			}
+			.top-nav .order{
+				width: 80px;
+				text-align: center;
+				top: 25px;
+				left: 0;
+			    display: none;
+			    position: absolute;
+			    border: 1px solid #eee;
+			    box-shadow: 2px 2px 2px #F7F7F7;
+			    background: #fff;
+			    border-top: none;
+			}
+			.top-nav li:hover .order{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top-nav">
+			<ul>
+				<li class="myorder">
+					<a href="" target="_blank">我的订单</a>
+					<i class="icon-arrow"></i>
+					<div class="order">
+						<ul>
+							<li><a href="#" target="_blank">全部订单</a></li>
+							<li><a href="" target="_blank">我的机票</a></li>
+							<li><a href="" target="_blank"></a>我的火车票</li>
+							<li><a href="" target="_blank"></a>我的夺宝</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

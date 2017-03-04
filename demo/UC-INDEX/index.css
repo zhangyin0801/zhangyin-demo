@@ -1,0 +1,418 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*css reset*/
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header begin*/
+.header{
+	width: 990px;
+	height: 70px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	margin-top: 10px;
+}
+.nav{
+	width: 650px;
+	height: 70px;
+	float: right;
+}
+.nav ul{
+	float: right;
+}
+.nav li{
+	float: left;
+	padding-right: 52px;
+}
+.nav li a{
+	color: #000000;
+	font: 20px/70px "微软雅黑";
+	padding-bottom: 18px;
+}
+.nav .shouye{
+	border-bottom: 3px solid #ff6600;
+}
+.nav li a:hover{
+	color: #ff6600;
+}
+/*banner begin*/
+.banner{
+	width: 100%;
+	height: 400px;
+}
+.imgshow{
+	width: 990px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	right: 467px;
+}
+.banner .dot{
+	width: 100px;
+	height: 15px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 35px;
+	left: 3px;
+}
+.banner .dot li a{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 10px;
+	background: #F8F8FF;
+	border-radius: 50%;
+}
+.banner .dot li a:hover{
+    background: #ff6600;
+}
+
+/*download begin*/
+.download{
+	width: 100%;
+	height: 148px;
+	border-bottom: 1px solid #eeeeee;
+}
+.download1{
+	width: 990px;
+	height: 148px;
+	margin: 0 auto;
+}
+.download a{
+	font: 12px '宋体';
+	color: #000000;
+}
+.download ul{
+	width: 990px;
+	height: 148px;
+	margin: 0 auto;
+	clear: both;
+}
+.download ul li{
+	float: left;
+	margin: 0 22px;
+}
+.download ul li a:hover{
+	color: #fd7431;
+}
+.download .QRcode1{
+    color: #A9A9A9;
+	float: left;
+}
+.download .QRcode2{
+	color: #A9A9A9;
+	float: right;
+}
+.download .phone1{
+	width: 100px;
+	height: 70px;
+	background: url(img/phone.png) -8PX 0;
+}
+.download .phone2{
+	width: 100px;
+	height: 70px;
+	background: url(img/phone2.png) -14PX 0;
+}
+.download .phone3{
+	width: 100px;
+	height: 70px;
+	background: url(img/phone3.png) -14PX 0;
+}
+.download .bor{
+	border-right: 1px solid #eee;
+}
+.download .phone4{
+	width: 100px;
+	height: 70px;
+	background: url(img/phone4.png) -14PX 0;
+}
+.download .phone5{
+	width: 100px;
+	height: 70px;
+	background: url(img/phone5.png) -14PX 0;
+}
+
+/*content begin*/
+.content{
+	width: 990px;
+	height: 440px;
+	margin: 0 auto;
+}
+.content1{
+	width: 290px;
+	height: 340px;
+	margin-right: 58px;
+	float: left;
+}
+.content .dt{
+	font: 20px "微软雅黑";
+	color: #555;
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 22px;
+}
+.content .dd{
+	font: 14px "微软雅黑";
+	color: #445;
+	float: right;
+	margin-top: 46px;
+	margin-bottom: 22px;
+}
+.content .container li{
+	padding-bottom: 4px;
+}
+.content li a{
+	font: 14px "微软雅黑";
+	color: #445;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.content .d1{
+	width: 290px;
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 10px;
+	background: #f2f2f2;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.content img{
+	display: block;
+}
+.content li a:hover{
+	color: #fd7431;
+}
+.content2{
+	width: 290px;
+	height: 340px;
+	margin-right: 58px;
+	float: left;
+}
+.content3{
+	width: 290px;
+	height: 340px;
+	float: left;
+}
+
+/*foot begin*/
+.foot{
+	width: 100%;
+	height: 500px;
+	background: #333333;
+}
+/*link begin*/
+.foot .link{
+	width: 990px;
+	height: 240px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.foot .link >ul{
+	width: 164px;
+	float: left;
+}
+.foot .link li a{
+	font: 12px "微软雅黑";
+	color: #aaaaaa;
+}
+.foot .link .title{
+	font-weight: bold;
+}
+.foot .link .lang li{
+	height: 26px;
+}
+.foot .link .lang li a{
+	font-size: 14px;
+}
+.foot .link a:hover{
+	color: #ff6600;
+}
+.foot .link .langcur{
+	width: 145px;
+	border: 1px solid #434343;
+	margin-bottom: 7px;
+}
+.langarr{
+	width: 30px;
+	height: 26px;
+	background: url(img/ico_lang_arrow.png) no-repeat 6px 7px;
+	float: right;
+}
+.img1{
+	width: 30px;
+	height: 26px;
+	background: url(img/ico_03.png) no-repeat -1px -5px;
+	float: left;
+}
+.img2{
+	width: 30px;
+	height: 26px;
+	background: url(img/ico_03.png) no-repeat -1px -35px; 
+	float: left;
+}
+.foot .lang .chang1:hover .img2{
+	background: url(img/ico_03.png) no-repeat -43px -35px;
+}
+.img3{
+	width: 30px;
+	height: 26px;
+	background: url(img/ico_03.png) no-repeat -1px -132px;
+	float: left;
+}
+.foot .lang .chang2:hover .img3{
+	background: url(img/ico_03.png) no-repeat -43px -132px;
+}
+.img4{
+	width: 30px;
+	height: 26px;
+	background: url(img/ico_03.png) no-repeat -1px -165px; 
+	float: left;
+}
+.foot .lang .chang3:hover .img4{
+	background: url(img/ico_03.png) no-repeat -43px -165px;
+}
+.img5{
+	width: 30px;
+	height: 26px;
+	background: url(img/ico_03.png) no-repeat -1px -66px; 
+	float: left;
+}
+.foot .lang .chang4:hover .img5{
+	background: url(img/ico_03.png) no-repeat -43px -66px;
+}
+.img6{
+	width: 30px;
+	height: 26px;
+	background: url(img/ico_03.png) no-repeat -1px -97px;
+	float: left;
+}
+.foot .lang .chang5:hover .img6{
+	background: url(img/ico_03.png) no-repeat -43px -97px;
+}
+.img7{
+	width: 30px;
+	height: 26px;
+	background: url(img/ico_03.png) no-repeat -3px -201px; 
+	float: left;
+}
+.foot .lang .chang6:hover .img7{
+	background: url(img/ico_03.png) no-repeat -43px -201px;
+}
+.weixintwocode{
+	width: 317px;
+	height: 202px;
+	background: #FFFFFF;
+	padding-top: 14px;
+	position: relative;
+	right: 240px;
+	bottom: 244px;
+	box-shadow: 0 -1px 3px #EEEEEE;
+	visibility: hidden;
+}
+.weixintwocode ul{
+	width: 324px;
+	height: 170px;
+	position: relative;
+	margin: 16px 8px;
+}
+.weixintwocode ul li{
+	width: 148px;
+	height: 170px;
+	margin-right: 7px;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+}
+.weixintwocode ul li img{
+	margin-bottom: 4px;
+	vertical-align: middle;
+}
+.weixintwocode em{
+	display: block;
+	width: 340px;
+	height: 6px;
+	position: absolute;
+	right: 13px;
+	bottom: -22px;
+	background: url(img/twocode_wx_arrow.png) no-repeat 330px 0;
+}
+.foot .lang .chang6:hover .weixintwocode{
+	visibility: visible ;
+}
+/*friendlink begin*/
+.foot .friendlink{
+	width: 990px;
+	height: 75px;
+	margin: 0 auto;
+}
+.foot .flink{
+	width: 990px;
+	height: 37px;
+	border-top: 1px dotted #565656;
+	border-bottom: 1px dotted #565656;
+	color: #666666;
+	line-height: 36px;
+}
+.foot .flink a{
+	font: 12px "微软雅黑";
+	color: #aaaaaa;
+	margin: 0 1px;
+}
+.foot .flink a:hover{
+	color: #ff6600;
+}
+.foot .flink .btn{
+	width: 20px;
+	height: 20px;
+	background: url(img/ico.png) no-repeat -103px -246px;
+	float: right;
+	margin-right: 8px;
+	margin-top: 9px;
+}
+.foot .flink .btn:hover{
+	background: url(img/ico.png)no-repeat -122px -246px;;
+}
+/*footer begin*/
+.footer{
+	width: 990px;
+	height: 160px;
+	margin: 0 auto;
+}
+.footlogo{
+	width: 133px;
+	float: left;
+    margin-top: 40px;
+}
+.copyright{
+	width: 460px;
+	float: left;
+	margin-top: 28px;
+}
+.copyright span{
+	font: 12px "微软雅黑";
+	color: #666;
+}
+.footer .icon{
+	width: 397px;
+	float: right;
+}
+.icon1{
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 197px;
+}
+.icon2{
+	width: 332px;
+	float: left;
+	margin-left: 62px;
+}

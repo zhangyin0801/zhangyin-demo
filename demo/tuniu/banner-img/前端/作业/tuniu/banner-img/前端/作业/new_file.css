@@ -1,0 +1,112 @@
+/*顶部导航*/
+/*.header-top .top-nav{
+	float: right;
+}
+.header-top .top-nav li{
+	position: relative;
+	padding: 0 12px;
+}
+.header-top .top-nav li a{
+	color: #404040;
+}
+.header-top .top-nav li a.color{
+	color: #ff8800;
+}
+/*顶部导航  我的订单*/
+.header-top .top-nav .myorder{
+	/*width: 80px;*/
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+/*.header-top .top-nav .myorder:hover{
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	background: #FFFFFF;
+}*/
+.header-top .top-nav .icon-arrow{
+	position: absolute;
+	top: 14px;
+	right: 1px;
+	width: 5px;
+	height: 3px;
+	background: url(img/icon.png) no-repeat -8px -13px;
+}
+.header-top .top-nav li:hover .icon-arrow{
+	transform: rotate(180deg);
+	transition: transform 0.3s;
+}
+/*我的订单的子导航*/
+.header-top .top-nav .order{
+	width: 80px;
+	text-align: center;
+	top: 25px;
+	left: 0;
+    display: none;
+    position: absolute;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 2px #F7F7F7;
+    background: #fff;
+    border-top: none;
+    z-index: 100;
+}
+/*.header-top .top-nav li:hover .order{
+	display: block;
+}*/
+/*顶部导航 微博icon*/
+.top-nav .icon-weibo{
+	position: absolute;
+	top: 8px;
+	right: -24px;
+	width: 18px;
+	height: 13px;
+	background: url(img/icon.png) no-repeat -40px -50px;
+}
+.top-nav li:hover .icon-weibo{
+	background: url(img/icon.png) no-repeat -86px -49px;
+}
+/*顶部导航 手机icon*/
+.top-nav .icon-phone{
+	width: 24px;
+	height: 29px;
+	background: url(img/head_icon_qrcode.gif);
+	position: absolute;
+	right: -66px;
+}
+.top-nav .qrcode{
+	top: 30px;
+	left: -150px;
+    display: none;
+    position: absolute;
+    background: #fff;
+    border-top: none;
+    z-index: 100;
+}
+.top-nav li:hover .qrcode{
+	display: block;
+}
+/*顶部导航 微信icon*/
+.top-nav .icon-weixin{
+	width: 19px;
+	height: 14px;
+	background: url(img/icon.png) no-repeat -63px -49px;
+	position: absolute;
+	right: -108px;
+    top: 9px;
+}
+.top-nav .erweima{
+	top: 30px;
+	left: -150px;
+    display: none;
+    position: absolute;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 2px #F7F7F7;
+    background: #fff;
+    border-top: none;
+    z-index: 100;
+}
+.top-nav li:hover .icon-weixin{
+	background: url(img/icon.png) no-repeat -92px -7px;
+}
+.top-nav li:hover .erweima{
+	display: block;
+}*/

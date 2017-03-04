@@ -1,0 +1,342 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*样式初始化*/
+body{
+	
+    background: #f6f6f6;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*顶部*/
+.top{
+	width: 100%;
+	height: 34px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ebebeb;
+}
+.t{
+	overflow: hidden;
+	line-height: 34px;
+}
+.top .topnav{
+	float: left;
+}
+.top .toplink{
+	float: right;
+}
+.top a {
+    font: 12px "宋体";
+    padding: 0 12px;
+    color: #999999;   
+    margin-left: -1px;
+    border-left: 1px solid #e6e6e6;
+}
+.top a:hover{
+    color: #f5594e;
+}
+
+/*导航*/
+.nav{
+	widows: 100%;
+	height: 90px;
+	background: #FFFFFF;
+    border-bottom: 1px solid #ebebeb;
+	
+}
+.nav1{
+	height: 90px;
+}
+.nav .logo{
+	display: block;
+	width: 245px;
+	height: 90px;
+	background: url(img/logo.png) no-repeat 0 15px;
+    float: left;
+}
+.nav .navlist{
+	width: 600px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 27px;
+}
+.nav .navlist li{
+	float: left;
+}
+.nav .navlist li a{
+	display: block;
+    width: 65px;
+    height: 36px;
+	font: 18px/36px "微软雅黑";
+	color: #333333;
+	text-align: center;
+	margin-right: 8px;
+}
+.nav .navlist .p2p a{
+	background: red;
+	border-radius: 5px;
+}
+.nav .navlist li a:hover{
+	background: red;
+	border-radius: 5px;
+}
+.nav .nav1 span{
+	display: block;
+	width: 245px;
+	height: 90px;
+	background: url(img/logo.png) no-repeat 20px -60px;
+    float: right;
+}
+
+/*wrapper*/
+.wrapper{
+	height: 1090px;
+	margin-top: 13px;
+}
+/*wrapper content2*/
+.content1{
+	height: 200px;
+}
+.wrapper .content1 li{
+	width: 162px;
+	height: 92px;
+	margin: 0 7px 7px 0;
+	background: #FFFFFF;
+	float: left;
+	border: 1px solid #dcdcdc;
+}
+.wrapper .content1 li img{
+	width: 140px;
+	height: 50px;
+	margin: 0 7px 7px 0;
+}
+.wrapper .content1 li:hover{
+	border: 1px solid #FF0000;
+}
+.wrapper .content1 span{
+	font: 12px/28px "微软雅黑";
+	display: block;
+	text-align: center;
+    height: 28px;
+    color: #999999;
+}
+/*wrapper content2*/
+.wrapper .content2{
+	height: 163px;
+	margin-top: 20px;
+	border: 1px solid #e6e6e6;
+}
+.wrapper .content2 li{
+	position: relative;
+    float: left;
+    width: 238px;
+    height: 161px;
+    background: #fff;
+    border-right: 1px solid #e6e6e6;
+    text-align: center;
+}
+.wrapper .content2 ul li:last-child{
+    border-right: none;
+}
+.wrapper .content2 h3{
+    width: 100%;
+    height: 45px;
+    font: 18px/45px "微软雅黑";
+    background: #fafafa;
+    border-bottom: 1px solid #e8e8e8;
+}
+.wrapper .content2 h3 a{
+    color: #333333;
+}
+.wrapper .content2 h3 a:hover{
+    color: #f5594e;
+}
+.wrapper .content2 P{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.wrapper .content2 P .ytext{
+    font-size: 12px;
+    color: #999999;
+}
+.wrapper .content2 P .ynum{
+    font-size: 18px;
+    color: #f5594e;
+    margin-left: 5px;
+}
+.wrapper .content2 li .btn{
+    display: block;
+    width: 110px;
+    height: 31px;
+    color: #FFFFFF;
+    font: 18px/31px "微软雅黑";
+    background: #f5594e;
+    border: 1px solid #e8574d;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.wrapper .content2 .corner{
+    position: absolute;
+    left: -1px;
+    top: -4px;
+    width: 65px;
+    height: 50px;
+    background: url(img/logo.png) no-repeat -80px -160px;
+} 
+/*wrapper content3*/   
+.wrapper .content3{
+	height: 440px;
+	margin-top: 20px;
+}
+.wrapper .content3 .title{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 5px;
+}
+.wrapper .content3 .title span{
+	font-size: 16px;
+    color: #999999;
+    margin-left: 5px;
+}
+.wrapper .content3 .activity{
+	width: 100%;
+	height: 404px;
+}
+.wrapper .content3 .activity li{
+	float: left;
+	display: inline;
+    width: 288px;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    border: 1px solid #f6f6f6;
+}
+.wrapper .content3 .activity ul{
+    margin-right: -12px;
+}
+.wrapper .content3 .activity li:hover{
+	border: 1px solid #FF0000;
+}
+.wrapper .content3 .activity li img{
+	display: block;
+}
+.wrapper .content3 .activity li a{
+	display: block;
+	font-size: 16px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+}
+/*wrapper content4*/
+.wrapper .content4{
+	height: 210px;
+	margin-top: 20px;
+}
+.wrapper .content4 .title{
+	height: 40px;
+	margin-bottom: 2px;
+}
+.wrapper .content4 .title h2{
+	display: inline;
+	font: 22px/40px 微软雅黑;
+    color: #666e80;
+}
+.wrapper .content4 .title span{
+	font-size: 16px;
+    color: #999999;
+    margin-left: 5px;
+}
+.wrapper .content4 table{
+	border: 1px solid #e6e6e6;
+    background: #fff;
+}
+.wrapper .content4 table tr:first-child{
+	height: 43px;
+    line-height: 43px;
+    background: #fafafa;
+    text-align: center;
+    color: #666;
+}
+.wrapper .content4 .tablerow td{
+	height: 49px;
+	border-top: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    text-align: center;
+    color: #333333;
+}
+.wrapper .content4 table td a{
+	font-size: 14px;
+    color: #333333;
+}    
+.wrapper .content4 table a:hover{
+    color: #f95353;
+} 
+.wrapper .content4 .tablerow td span{
+	font-size: 14px;
+    color: #333333;
+}
+.wrapper .content4 .tablerow td .rednum{
+	font-size: 18px;
+	color: #f95353;
+}  
+.wrapper .content4 .tablerow td:last-child a{
+	display: block;
+	color: #FFFFFF;
+	width: 94px;
+	height: 28px;
+	line-height: 28px;
+	background: #f45145;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.wrapper .content4 table tr:last-child td{
+	height: 38px;
+	text-align: center;
+	border-top: 1px solid #f2f2f2;
+}
+.wrapper .content4 table tr:hover td{
+    background: #fafafa; 
+}
+
+/*foot*/
+.foot{
+	height: 115px;
+	text-align: center;
+	margin: 36px auto;
+}
+.foot .link{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e6e6e6;
+} 
+.foot .link span a{
+	border-left: 1px solid #d0d0d0;
+    padding: 0 16px;
+    font: 14px 微软雅黑; 
+    color: #666;
+} 
+.foot .link span a:first-child{
+	border: none;
+} 
+.foot .link span a:hover{
+	color: #f5594e;
+} 
+.foot .copyright{
+	height: 60px;
+	padding-top: 18px;
+	font: 12px/25px "微软雅黑";
+	color: #666666;
+}    
+ 
